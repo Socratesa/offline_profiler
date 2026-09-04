@@ -1,0 +1,6 @@
+runs
+record
+**/__pycache__
+data
+**/*.pyc
+offline_exp/scripts/afd/run_log
