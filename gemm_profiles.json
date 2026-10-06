@@ -1,0 +1,158 @@
+[
+    {
+        "gemm_id": {
+            "compute_type": 1,
+            "dtype": 2,
+            "gemm_k": 4096,
+            "gemm_n": 704,
+            "num_experts": 128,
+            "wdtype": 2
+        },
+        "m_profile": {
+            "1024": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "128": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "16": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "2048": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "256": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 7
+            },
+            "32": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 7
+            },
+            "4096": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "512": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "64": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "8": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 5,
+                "tile_config": 5
+            },
+            "8192": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 7
+            }
+        }
+    },
+    {
+        "gemm_id": {
+            "compute_type": 1,
+            "dtype": 2,
+            "gemm_k": 352,
+            "gemm_n": 4096,
+            "num_experts": 128,
+            "wdtype": 2
+        },
+        "m_profile": {
+            "1024": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "128": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "16": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "2048": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 4,
+                "tile_config": 5
+            },
+            "256": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "32": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "4096": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 4,
+                "tile_config": 5
+            },
+            "512": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 4,
+                "tile_config": 5
+            },
+            "64": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 4,
+                "tile_config": 5
+            },
+            "8": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 5
+            },
+            "8192": {
+                "split_k_factor": 1,
+                "split_k_style": 0,
+                "stages": 3,
+                "tile_config": 7
+            }
+        }
+    }
+]
