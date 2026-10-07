@@ -345,8 +345,8 @@ def main():
     p.add_argument("--judge-model", default=os.environ.get("JUDGE_MODEL", ""),
                    help="判分模型名，默认读环境变量 JUDGE_MODEL")
     p.add_argument("--api-key", default=os.environ.get("JUDGE_API_KEY", ""))
-    p.add_argument("--judge-max-tokens", type=int, default=512,
-                   help="判分模型也会思考，给太小会拿不到 JSON")
+    p.add_argument("--judge-max-tokens", type=int, default=8192,
+                   help="判分模型也会思考，给太小会拿不到 JSON（content 被推理吃光变空）")
     p.add_argument("--rpm", type=int, default=15000, help="判分 API 的 RPM 上限")
     p.add_argument("--tpm", type=int, default=1200000, help="判分 API 的 TPM 上限")
     p.add_argument("--workers", type=int, default=32)
